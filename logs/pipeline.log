@@ -1,0 +1,240 @@
+[2026-09-20 11:15:02,678] [INFO] ============================================================
+[2026-09-20 11:15:02,678] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:15:02,679] [INFO] Category: 'data_analyst' | Target Limit: 30 jobs
+[2026-09-20 11:15:02,679] [INFO] Active Sources: ['linkedin', 'indeed', 'naukrigulf'] | Keywords: ['Data Analyst']
+[2026-09-20 11:15:02,679] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\data_analyst_raw.csv
+[2026-09-20 11:15:02,680] [INFO] ============================================================
+[2026-09-20 11:15:02,685] [INFO] Loaded 0 existing job links for deduplication.
+[2026-09-20 11:15:02,686] [INFO] 
+--- Launching [LINKEDIN] (Target: 10 jobs) ---
+[2026-09-20 11:15:03,894] [INFO] [LinkedIn] [Data Analyst] Page 1 (Progress: 0/10) -> https://www.linkedin.com/jobs/search?keywords=Data%20Analyst
+[2026-09-20 11:15:29,222] [INFO] [LinkedIn] [Data Analyst] Saved 10 new jobs. (Total keyword: 10/10)
+[2026-09-20 11:15:31,528] [INFO] [linkedin] Driver closed.
+[2026-09-20 11:15:31,529] [INFO] [LINKEDIN] Finished. Collected 10 jobs.
+[2026-09-20 11:15:31,529] [INFO] 
+--- Launching [INDEED] (Target: 10 jobs) ---
+[2026-09-20 11:15:32,509] [INFO] [Indeed] [Data Analyst] Page 1 (Progress: 0/10) -> https://www.indeed.com/jobs?q=Data%20Analyst&start=0
+[2026-09-20 11:15:41,770] [INFO] [Indeed] [Data Analyst] Saved 10 new jobs. (Total keyword: 10/10)
+[2026-09-20 11:15:44,217] [INFO] [indeed] Driver closed.
+[2026-09-20 11:15:44,217] [INFO] [INDEED] Finished. Collected 10 jobs.
+[2026-09-20 11:15:44,218] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 10 jobs) ---
+[2026-09-20 11:15:45,262] [INFO] [NaukriGulf] [Data Analyst] Page 1 (Progress: 0/10) -> https://www.naukrigulf.com/data-analyst-jobs-1
+[2026-09-20 11:15:52,783] [INFO] [NaukriGulf] [Data Analyst] Page 1: No new un-saved jobs found.
+[2026-09-20 11:15:52,784] [INFO] [NaukriGulf] [Data Analyst] Page 2 (Progress: 0/10) -> https://www.naukrigulf.com/data-analyst-jobs-2
+[2026-09-20 11:15:57,895] [INFO] [NaukriGulf] [Data Analyst] Page 2: No new un-saved jobs found.
+[2026-09-20 11:15:57,895] [INFO] [NaukriGulf] [Data Analyst] Page 3 (Progress: 0/10) -> https://www.naukrigulf.com/data-analyst-jobs-3
+[2026-09-20 11:16:03,592] [INFO] [NaukriGulf] [Data Analyst] Page 3: No new un-saved jobs found.
+[2026-09-20 11:16:05,948] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:16:05,949] [INFO] [NAUKRIGULF] Finished. Collected 0 jobs.
+[2026-09-20 11:16:05,949] [INFO] ============================================================
+[2026-09-20 11:16:05,950] [INFO] PIPELINE COMPLETE for 'data_analyst'. Total New Jobs Saved: 20/30
+[2026-09-20 11:16:05,950] [INFO] ============================================================
+[2026-09-20 11:16:05,950] [INFO] ============================================================
+[2026-09-20 11:16:05,952] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:16:05,952] [INFO] Category: 'software_engineer' | Target Limit: 30 jobs
+[2026-09-20 11:16:05,953] [INFO] Active Sources: ['linkedin', 'indeed', 'naukrigulf'] | Keywords: ['Software Engineer']
+[2026-09-20 11:16:05,953] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\software_engineer_raw.csv
+[2026-09-20 11:16:05,954] [INFO] ============================================================
+[2026-09-20 11:16:05,960] [INFO] Loaded 0 existing job links for deduplication.
+[2026-09-20 11:16:05,960] [INFO] 
+--- Launching [LINKEDIN] (Target: 10 jobs) ---
+[2026-09-20 11:16:07,025] [INFO] [LinkedIn] [Software Engineer] Page 1 (Progress: 0/10) -> https://www.linkedin.com/jobs/search?keywords=Software%20Engineer
+[2026-09-20 11:16:48,611] [INFO] [LinkedIn] [Software Engineer] Saved 10 new jobs. (Total keyword: 10/10)
+[2026-09-20 11:16:50,923] [INFO] [linkedin] Driver closed.
+[2026-09-20 11:16:50,924] [INFO] [LINKEDIN] Finished. Collected 10 jobs.
+[2026-09-20 11:16:50,924] [INFO] 
+--- Launching [INDEED] (Target: 10 jobs) ---
+[2026-09-20 11:16:51,928] [INFO] [Indeed] [Software Engineer] Page 1 (Progress: 0/10) -> https://www.indeed.com/jobs?q=Software%20Engineer&start=0
+[2026-09-20 11:17:01,129] [INFO] [Indeed] [Software Engineer] Saved 10 new jobs. (Total keyword: 10/10)
+[2026-09-20 11:17:03,538] [INFO] [indeed] Driver closed.
+[2026-09-20 11:17:03,539] [INFO] [INDEED] Finished. Collected 10 jobs.
+[2026-09-20 11:17:03,540] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 10 jobs) ---
+[2026-09-20 11:17:04,530] [INFO] [NaukriGulf] [Software Engineer] Page 1 (Progress: 0/10) -> https://www.naukrigulf.com/software-engineer-jobs-1
+[2026-09-20 11:17:13,331] [INFO] [NaukriGulf] [Software Engineer] Page 1: No new un-saved jobs found.
+[2026-09-20 11:17:13,331] [INFO] [NaukriGulf] [Software Engineer] Page 2 (Progress: 0/10) -> https://www.naukrigulf.com/software-engineer-jobs-2
+[2026-09-20 11:17:18,178] [INFO] [NaukriGulf] [Software Engineer] Page 2: No new un-saved jobs found.
+[2026-09-20 11:17:18,178] [INFO] [NaukriGulf] [Software Engineer] Page 3 (Progress: 0/10) -> https://www.naukrigulf.com/software-engineer-jobs-3
+[2026-09-20 11:17:23,395] [INFO] [NaukriGulf] [Software Engineer] Page 3: No new un-saved jobs found.
+[2026-09-20 11:17:25,713] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:17:25,714] [INFO] [NAUKRIGULF] Finished. Collected 0 jobs.
+[2026-09-20 11:17:25,714] [INFO] ============================================================
+[2026-09-20 11:17:25,715] [INFO] PIPELINE COMPLETE for 'software_engineer'. Total New Jobs Saved: 20/30
+[2026-09-20 11:17:25,716] [INFO] ============================================================
+[2026-09-20 11:17:25,716] [INFO] ============================================================
+[2026-09-20 11:17:25,717] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:17:25,717] [INFO] Category: 'marketing' | Target Limit: 30 jobs
+[2026-09-20 11:17:25,718] [INFO] Active Sources: ['linkedin', 'indeed', 'naukrigulf'] | Keywords: ['Digital Marketing']
+[2026-09-20 11:17:25,718] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\marketing_raw.csv
+[2026-09-20 11:17:25,719] [INFO] ============================================================
+[2026-09-20 11:17:25,726] [INFO] Loaded 0 existing job links for deduplication.
+[2026-09-20 11:17:25,727] [INFO] 
+--- Launching [LINKEDIN] (Target: 10 jobs) ---
+[2026-09-20 11:17:26,797] [INFO] [LinkedIn] [Digital Marketing] Page 1 (Progress: 0/10) -> https://www.linkedin.com/jobs/search?keywords=Digital%20Marketing
+[2026-09-20 11:17:50,751] [INFO] [LinkedIn] [Digital Marketing] Saved 10 new jobs. (Total keyword: 10/10)
+[2026-09-20 11:17:53,087] [INFO] [linkedin] Driver closed.
+[2026-09-20 11:17:53,088] [INFO] [LINKEDIN] Finished. Collected 10 jobs.
+[2026-09-20 11:17:53,089] [INFO] 
+--- Launching [INDEED] (Target: 10 jobs) ---
+[2026-09-20 11:17:54,083] [INFO] [Indeed] [Digital Marketing] Page 1 (Progress: 0/10) -> https://www.indeed.com/jobs?q=Digital%20Marketing&start=0
+[2026-09-20 11:18:02,750] [INFO] [Indeed] [Digital Marketing] Saved 10 new jobs. (Total keyword: 10/10)
+[2026-09-20 11:18:05,111] [INFO] [indeed] Driver closed.
+[2026-09-20 11:18:05,111] [INFO] [INDEED] Finished. Collected 10 jobs.
+[2026-09-20 11:18:05,113] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 10 jobs) ---
+[2026-09-20 11:18:06,110] [INFO] [NaukriGulf] [Digital Marketing] Page 1 (Progress: 0/10) -> https://www.naukrigulf.com/digital-marketing-jobs-1
+[2026-09-20 11:18:14,328] [INFO] [NaukriGulf] [Digital Marketing] Page 1: No new un-saved jobs found.
+[2026-09-20 11:18:14,329] [INFO] [NaukriGulf] [Digital Marketing] Page 2 (Progress: 0/10) -> https://www.naukrigulf.com/digital-marketing-jobs-2
+[2026-09-20 11:18:20,112] [INFO] [NaukriGulf] [Digital Marketing] Page 2: No new un-saved jobs found.
+[2026-09-20 11:18:20,112] [INFO] [NaukriGulf] [Digital Marketing] Page 3 (Progress: 0/10) -> https://www.naukrigulf.com/digital-marketing-jobs-3
+[2026-09-20 11:18:24,969] [INFO] [NaukriGulf] [Digital Marketing] Page 3: No new un-saved jobs found.
+[2026-09-20 11:18:27,282] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:18:27,283] [INFO] [NAUKRIGULF] Finished. Collected 0 jobs.
+[2026-09-20 11:18:27,283] [INFO] ============================================================
+[2026-09-20 11:18:27,285] [INFO] PIPELINE COMPLETE for 'marketing'. Total New Jobs Saved: 20/30
+[2026-09-20 11:18:27,285] [INFO] ============================================================
+[2026-09-20 11:24:56,410] [INFO] ============================================================
+[2026-09-20 11:24:56,410] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:24:56,411] [INFO] Category: 'data_analyst' | Target Limit: 15 jobs
+[2026-09-20 11:24:56,411] [INFO] Active Sources: ['linkedin', 'indeed', 'naukrigulf'] | Keywords: ['Data Analyst']
+[2026-09-20 11:24:56,411] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\data_analyst_raw.csv
+[2026-09-20 11:24:56,411] [INFO] ============================================================
+[2026-09-20 11:24:56,415] [INFO] Loaded 20 existing job links for deduplication.
+[2026-09-20 11:24:56,415] [INFO] 
+--- Launching [LINKEDIN] (Target: 5 jobs) ---
+[2026-09-20 11:24:57,661] [INFO] [LinkedIn] [Data Analyst] Page 1 (Progress: 0/5) -> https://www.linkedin.com/jobs/search?keywords=Data%20Analyst
+[2026-09-20 11:25:13,748] [INFO] [LinkedIn] [Data Analyst] Saved 5 new jobs. (Total keyword: 5/5)
+[2026-09-20 11:25:16,112] [INFO] [linkedin] Driver closed.
+[2026-09-20 11:25:16,112] [INFO] [LINKEDIN] Finished. Collected 5 jobs.
+[2026-09-20 11:25:16,112] [INFO] 
+--- Launching [INDEED] (Target: 5 jobs) ---
+[2026-09-20 11:25:17,303] [INFO] [Indeed] [Data Analyst] Page 1 (Progress: 0/5) -> https://www.indeed.com/jobs?q=Data%20Analyst&start=0
+[2026-09-20 11:25:28,280] [INFO] [Indeed] [Data Analyst] Saved 5 new jobs. (Total keyword: 5/5)
+[2026-09-20 11:25:30,610] [INFO] [indeed] Driver closed.
+[2026-09-20 11:25:30,610] [INFO] [INDEED] Finished. Collected 5 jobs.
+[2026-09-20 11:25:30,612] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 5 jobs) ---
+[2026-09-20 11:25:31,653] [INFO] [NaukriGulf] [Data Analyst] Page 1 (Progress: 0/5) -> https://www.naukrigulf.com/data-analyst-jobs-1
+[2026-09-20 11:25:38,898] [INFO] [NaukriGulf] [Data Analyst] Page 1: No new un-saved jobs found.
+[2026-09-20 11:25:38,898] [INFO] [NaukriGulf] [Data Analyst] Page 2 (Progress: 0/5) -> https://www.naukrigulf.com/data-analyst-jobs-2
+[2026-09-20 11:25:42,736] [INFO] [NaukriGulf] [Data Analyst] Page 2: No new un-saved jobs found.
+[2026-09-20 11:25:42,736] [INFO] [NaukriGulf] [Data Analyst] Page 3 (Progress: 0/5) -> https://www.naukrigulf.com/data-analyst-jobs-3
+[2026-09-20 11:25:46,867] [INFO] [NaukriGulf] [Data Analyst] Page 3: No new un-saved jobs found.
+[2026-09-20 11:25:49,414] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:25:49,414] [INFO] [NAUKRIGULF] Finished. Collected 0 jobs.
+[2026-09-20 11:25:49,415] [INFO] ============================================================
+[2026-09-20 11:25:49,415] [INFO] PIPELINE COMPLETE for 'data_analyst'. Total New Jobs Saved: 10/15
+[2026-09-20 11:25:49,415] [INFO] ============================================================
+[2026-09-20 11:25:49,415] [INFO] ============================================================
+[2026-09-20 11:25:49,415] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:25:49,416] [INFO] Category: 'software_engineer' | Target Limit: 15 jobs
+[2026-09-20 11:25:49,416] [INFO] Active Sources: ['linkedin', 'indeed', 'naukrigulf'] | Keywords: ['Software Engineer']
+[2026-09-20 11:25:49,416] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\software_engineer_raw.csv
+[2026-09-20 11:25:49,416] [INFO] ============================================================
+[2026-09-20 11:25:49,422] [INFO] Loaded 20 existing job links for deduplication.
+[2026-09-20 11:25:49,422] [INFO] 
+--- Launching [LINKEDIN] (Target: 5 jobs) ---
+[2026-09-20 11:25:50,471] [INFO] [LinkedIn] [Software Engineer] Page 1 (Progress: 0/5) -> https://www.linkedin.com/jobs/search?keywords=Software%20Engineer
+[2026-09-20 11:26:08,150] [INFO] [LinkedIn] [Software Engineer] Saved 5 new jobs. (Total keyword: 5/5)
+[2026-09-20 11:26:10,455] [INFO] [linkedin] Driver closed.
+[2026-09-20 11:26:10,455] [INFO] [LINKEDIN] Finished. Collected 5 jobs.
+[2026-09-20 11:26:10,457] [INFO] 
+--- Launching [INDEED] (Target: 5 jobs) ---
+[2026-09-20 11:26:11,487] [INFO] [Indeed] [Software Engineer] Page 1 (Progress: 0/5) -> https://www.indeed.com/jobs?q=Software%20Engineer&start=0
+[2026-09-20 11:26:20,574] [INFO] [Indeed] [Software Engineer] Saved 5 new jobs. (Total keyword: 5/5)
+[2026-09-20 11:26:22,886] [INFO] [indeed] Driver closed.
+[2026-09-20 11:26:22,887] [INFO] [INDEED] Finished. Collected 5 jobs.
+[2026-09-20 11:26:22,887] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 5 jobs) ---
+[2026-09-20 11:26:23,893] [INFO] [NaukriGulf] [Software Engineer] Page 1 (Progress: 0/5) -> https://www.naukrigulf.com/software-engineer-jobs-1
+[2026-09-20 11:26:31,991] [INFO] [NaukriGulf] [Software Engineer] Page 1: No new un-saved jobs found.
+[2026-09-20 11:26:31,992] [INFO] [NaukriGulf] [Software Engineer] Page 2 (Progress: 0/5) -> https://www.naukrigulf.com/software-engineer-jobs-2
+[2026-09-20 11:26:37,906] [INFO] [NaukriGulf] [Software Engineer] Page 2: No new un-saved jobs found.
+[2026-09-20 11:26:37,907] [INFO] [NaukriGulf] [Software Engineer] Page 3 (Progress: 0/5) -> https://www.naukrigulf.com/software-engineer-jobs-3
+[2026-09-20 11:26:44,027] [INFO] [NaukriGulf] [Software Engineer] Page 3: No new un-saved jobs found.
+[2026-09-20 11:26:46,370] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:26:46,370] [INFO] [NAUKRIGULF] Finished. Collected 0 jobs.
+[2026-09-20 11:26:46,371] [INFO] ============================================================
+[2026-09-20 11:26:46,371] [INFO] PIPELINE COMPLETE for 'software_engineer'. Total New Jobs Saved: 10/15
+[2026-09-20 11:26:46,372] [INFO] ============================================================
+[2026-09-20 11:26:46,372] [INFO] ============================================================
+[2026-09-20 11:26:46,372] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:26:46,372] [INFO] Category: 'marketing' | Target Limit: 15 jobs
+[2026-09-20 11:26:46,372] [INFO] Active Sources: ['linkedin', 'indeed', 'naukrigulf'] | Keywords: ['Digital Marketing']
+[2026-09-20 11:26:46,373] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\marketing_raw.csv
+[2026-09-20 11:26:46,373] [INFO] ============================================================
+[2026-09-20 11:26:46,379] [INFO] Loaded 20 existing job links for deduplication.
+[2026-09-20 11:26:46,379] [INFO] 
+--- Launching [LINKEDIN] (Target: 5 jobs) ---
+[2026-09-20 11:26:47,424] [INFO] [LinkedIn] [Digital Marketing] Page 1 (Progress: 0/5) -> https://www.linkedin.com/jobs/search?keywords=Digital%20Marketing
+[2026-09-20 11:27:06,525] [INFO] [LinkedIn] [Digital Marketing] Saved 5 new jobs. (Total keyword: 5/5)
+[2026-09-20 11:27:08,835] [INFO] [linkedin] Driver closed.
+[2026-09-20 11:27:08,836] [INFO] [LINKEDIN] Finished. Collected 5 jobs.
+[2026-09-20 11:27:08,837] [INFO] 
+--- Launching [INDEED] (Target: 5 jobs) ---
+[2026-09-20 11:27:09,845] [INFO] [Indeed] [Digital Marketing] Page 1 (Progress: 0/5) -> https://www.indeed.com/jobs?q=Digital%20Marketing&start=0
+[2026-09-20 11:27:18,149] [INFO] [Indeed] [Digital Marketing] Saved 5 new jobs. (Total keyword: 5/5)
+[2026-09-20 11:27:20,483] [INFO] [indeed] Driver closed.
+[2026-09-20 11:27:20,483] [INFO] [INDEED] Finished. Collected 5 jobs.
+[2026-09-20 11:27:20,484] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 5 jobs) ---
+[2026-09-20 11:27:21,553] [INFO] [NaukriGulf] [Digital Marketing] Page 1 (Progress: 0/5) -> https://www.naukrigulf.com/digital-marketing-jobs-1
+[2026-09-20 11:27:31,243] [INFO] [NaukriGulf] [Digital Marketing] Page 1: No new un-saved jobs found.
+[2026-09-20 11:27:31,243] [INFO] [NaukriGulf] [Digital Marketing] Page 2 (Progress: 0/5) -> https://www.naukrigulf.com/digital-marketing-jobs-2
+[2026-09-20 11:27:35,544] [INFO] [NaukriGulf] [Digital Marketing] Page 2: No new un-saved jobs found.
+[2026-09-20 11:27:35,545] [INFO] [NaukriGulf] [Digital Marketing] Page 3 (Progress: 0/5) -> https://www.naukrigulf.com/digital-marketing-jobs-3
+[2026-09-20 11:27:40,654] [INFO] [NaukriGulf] [Digital Marketing] Page 3: No new un-saved jobs found.
+[2026-09-20 11:27:43,001] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:27:43,001] [INFO] [NAUKRIGULF] Finished. Collected 0 jobs.
+[2026-09-20 11:27:43,002] [INFO] ============================================================
+[2026-09-20 11:27:43,002] [INFO] PIPELINE COMPLETE for 'marketing'. Total New Jobs Saved: 10/15
+[2026-09-20 11:27:43,002] [INFO] ============================================================
+[2026-09-20 11:37:50,438] [INFO] ============================================================
+[2026-09-20 11:37:50,438] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:37:50,439] [INFO] Category: 'data_analyst' | Target Limit: 15 jobs
+[2026-09-20 11:37:50,439] [INFO] Active Sources: ['naukrigulf'] | Keywords: ['Data Analyst']
+[2026-09-20 11:37:50,439] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\data_analyst_raw.csv
+[2026-09-20 11:37:50,439] [INFO] ============================================================
+[2026-09-20 11:37:50,444] [INFO] Loaded 30 existing job links for deduplication.
+[2026-09-20 11:37:50,444] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 15 jobs) ---
+[2026-09-20 11:37:51,922] [INFO] [NaukriGulf] [Data Analyst] Page 1 (Progress: 0/15) -> https://www.naukrigulf.com/data-analyst-jobs
+[2026-09-20 11:37:59,694] [INFO] [NaukriGulf] [Data Analyst] Saved 15 new jobs.
+[2026-09-20 11:38:02,189] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:38:02,189] [INFO] [NAUKRIGULF] Finished. Collected 15 jobs.
+[2026-09-20 11:38:02,189] [INFO] ============================================================
+[2026-09-20 11:38:02,189] [INFO] PIPELINE COMPLETE for 'data_analyst'. Total New Jobs Saved: 15/15
+[2026-09-20 11:38:02,190] [INFO] ============================================================
+[2026-09-20 11:38:02,190] [INFO] ============================================================
+[2026-09-20 11:38:02,191] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:38:02,191] [INFO] Category: 'software_engineer' | Target Limit: 15 jobs
+[2026-09-20 11:38:02,191] [INFO] Active Sources: ['naukrigulf'] | Keywords: ['Software Engineer']
+[2026-09-20 11:38:02,191] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\software_engineer_raw.csv
+[2026-09-20 11:38:02,192] [INFO] ============================================================
+[2026-09-20 11:38:02,201] [INFO] Loaded 30 existing job links for deduplication.
+[2026-09-20 11:38:02,201] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 15 jobs) ---
+[2026-09-20 11:38:03,475] [INFO] [NaukriGulf] [Software Engineer] Page 1 (Progress: 0/15) -> https://www.naukrigulf.com/software-engineer-jobs
+[2026-09-20 11:38:09,532] [INFO] [NaukriGulf] [Software Engineer] Saved 15 new jobs.
+[2026-09-20 11:38:11,823] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:38:11,823] [INFO] [NAUKRIGULF] Finished. Collected 15 jobs.
+[2026-09-20 11:38:11,824] [INFO] ============================================================
+[2026-09-20 11:38:11,825] [INFO] PIPELINE COMPLETE for 'software_engineer'. Total New Jobs Saved: 15/15
+[2026-09-20 11:38:11,825] [INFO] ============================================================
+[2026-09-20 11:38:11,825] [INFO] ============================================================
+[2026-09-20 11:38:11,825] [INFO] STARTING UNIVERSAL PIPELINE
+[2026-09-20 11:38:11,825] [INFO] Category: 'marketing' | Target Limit: 15 jobs
+[2026-09-20 11:38:11,826] [INFO] Active Sources: ['naukrigulf'] | Keywords: ['Digital Marketing']
+[2026-09-20 11:38:11,826] [INFO] Output File: C:\Users\user\Pictures\Recruitment_Data_Project\data\raw\marketing_raw.csv
+[2026-09-20 11:38:11,827] [INFO] ============================================================
+[2026-09-20 11:38:11,834] [INFO] Loaded 30 existing job links for deduplication.
+[2026-09-20 11:38:11,835] [INFO] 
+--- Launching [NAUKRIGULF] (Target: 15 jobs) ---
+[2026-09-20 11:38:13,110] [INFO] [NaukriGulf] [Digital Marketing] Page 1 (Progress: 0/15) -> https://www.naukrigulf.com/digital-marketing-jobs
+[2026-09-20 11:38:21,474] [INFO] [NaukriGulf] [Digital Marketing] Saved 15 new jobs.
+[2026-09-20 11:38:23,891] [INFO] [naukrigulf] Driver closed.
+[2026-09-20 11:38:23,891] [INFO] [NAUKRIGULF] Finished. Collected 15 jobs.
+[2026-09-20 11:38:23,892] [INFO] ============================================================
+[2026-09-20 11:38:23,893] [INFO] PIPELINE COMPLETE for 'marketing'. Total New Jobs Saved: 15/15
+[2026-09-20 11:38:23,893] [INFO] ============================================================
