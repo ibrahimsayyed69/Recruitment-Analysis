@@ -47,7 +47,7 @@ Key organizations driving recruitment volume in the dataset include:
 ---
 
 ## 💻 Tech Stack Used
-* **Frontend / UI:** [Streamlit]([Recruitment_Analysis](https://attendance-system-using-face-recognition-gptdprzy3ykwyv93tmi7b.streamlit.app/))
+* **Frontend / UI:** [Streamlit](https://attendance-system-using-face-recognition-gptdprzy3ykwyv93tmi7b.streamlit.app/))
 * **Data Processing:** Python, Pandas
 * **Deployment:** Streamlit Community Cloud & GitHub
 
